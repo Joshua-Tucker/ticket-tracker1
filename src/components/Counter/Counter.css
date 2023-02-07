@@ -1,0 +1,26 @@
+.counter-card {
+  height: 125px;
+  width: 125 px;
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.counter-card__display {
+  font-size: 50px;
+  margin: 10%;
+}
+.counter-card__header {
+  width: 100%;
+  font-size: large;
+  margin: 5%;
+}
+.counter-card__increment {
+  height: 50px;
+  width: 50px;
+}
+.counter-card__decrement {
+  height: 50px;
+  width: 50px;
+}/*# sourceMappingURL=Counter.css.map */

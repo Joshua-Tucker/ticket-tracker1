@@ -1,0 +1,12 @@
+.employee-Card {
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  margin: 1%;
+  background-color: beige;
+  border-radius: 2rem;
+}/*# sourceMappingURL=Cards.css.map */
