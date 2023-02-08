@@ -1,11 +1,9 @@
 .counter-card {
   height: 125px;
-  width: 125 px;
-  margin: 4%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .counter-card__display {
   font-size: 50px;

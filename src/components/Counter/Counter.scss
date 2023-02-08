@@ -1,11 +1,9 @@
 .counter-card {
   height: 125px;
-  width: 125 px;
-  margin: 4%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 
   &__display {
     font-size: 50px;
@@ -17,15 +15,13 @@
     font-size: large;
     margin: 5%;
   }
-  &__increment{
-    height:50px;
-    width:50px;
+  &__increment {
+    height: 50px;
+    width: 50px;
   }
 
-  &__decrement{
-    height:50px;
-    width:50px;
-
+  &__decrement {
+    height: 50px;
+    width: 50px;
   }
-
 }

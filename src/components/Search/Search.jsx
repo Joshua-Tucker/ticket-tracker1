@@ -1,8 +1,12 @@
 import React from "react";
 import "./Dropdown.scss";
+import { useState } from "react";
 
-const Dropdown = (props) => {
-  const { optionsArr, handleSelect } = props;
+const Search = (props) => {
+
+
+  const { optionsArr, handleSearch } = props;
+
 
   const optionsJSX = optionsArr.map((element, index) => {
     return (

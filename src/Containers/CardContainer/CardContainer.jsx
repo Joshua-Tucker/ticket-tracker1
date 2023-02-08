@@ -3,7 +3,11 @@ import "./CardContainer.scss";
 import Cards from "../../components/Cards/Cards";
 
 const CardContainer = (props) =>{
+
     const {teamArr} = props
+    const filteredArr = [...teamArr]
+
+
     const cardJSX = teamArr.map((employee)=>{
         return (
             <div className="employee-Card" key={employee.id}
