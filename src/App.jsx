@@ -7,10 +7,6 @@ import { useState } from "react";
 function App() {
   const [employeeArr, setEmployeeArr] = useState(teamArray);
 
-  const fullSearch = ()=>{
-
-  }
-
   const handleSearch = (event) => {
     const searchTerm = event.target.value.toLowerCase();
     const employeeNames = teamArray.filter((employee) => {
