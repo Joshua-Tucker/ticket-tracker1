@@ -8,9 +8,7 @@ const Counter = () => {
   const handleIncrement = () => setCounter(counter + 1);
   
   const handleDecrement = () => {
-    if (counter === 0) {
-      setCounter(0);
-    } else {
+    if (counter > 0) {
       setCounter(counter - 1);
     }
   };
